@@ -16,66 +16,66 @@
         <h1 class="sr-only">Interactive rating component</h1>
         <div class="card-container">
             <!-- Rating state start -->
-        <div id="rating-state" class="card card-rating card--front">
-            <div class="card-icon" aria-hidden="true">
-                <img src="./images/icon-star.svg" alt="">
+            <div id="rating-state" class="card card-rating card--front">
+                <div class="card-icon" aria-hidden="true">
+                    <img src="./images/icon-star.svg" alt="">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-content__title">
+                        How did we do?
+                    </h2>
+                    <p class="card-content__text">
+                        Please let us know how we did with your support request. 
+                        All feedback is appreciated to help us improve our offering!
+                    </p>
+                </div>
+                <form id="rating-form" class="card-form rating-form">
+                    <fieldset class="rating-form__fieldset">
+                        <legend class="sr-only">Select a number from 1-5:</legend>
+                        <label class="rating-form__label" for="rating-1">
+                            <input type="radio" id="rating-1" class="rating-form__input" name="rating" value="1">
+                            <span class="rating-form__text">1</span>
+                        </label>
+                        <label class="rating-form__label" for="rating-2">
+                            <input type="radio" id="rating-2" class="rating-form__input" name="rating" value="2">
+                            <span class="rating-form__text">2</span>
+                        </label>
+                        <label class="rating-form__label" for="rating-3">
+                            <input type="radio" id="rating-3" class="rating-form__input" name="rating" value="3">
+                            <span class="rating-form__text">3</span>
+                        </label>
+                        <label class="rating-form__label" for="rating-4">
+                            <input type="radio" id="rating-4" class="rating-form__input" name="rating" value="4">
+                            <span class="rating-form__text">4</span>
+                        </label>
+                        <label class="rating-form__label" for="rating-5">
+                            <input type="radio" id="rating-5" class="rating-form__input" name="rating" value="5">
+                            <span class="rating-form__text">5</span>
+                        </label>
+                    </fieldset>
+                    <button id="rating-submit" class="btn" type="submit">Submit</button>
+                </form>
             </div>
-            <div class="card-content">
-                <h2 class="card-content__title">
-                    How did we do?
-                </h2>
-                <p class="card-content__text">
-                    Please let us know how we did with your support request. 
-                    All feedback is appreciated to help us improve our offering!
-                </p>
+            <!-- Rating state end -->
+    
+            <!-- Thank you state start -->
+            <div id="thankyou-state" class="card card-thankyou card--back" aria-atomic="true">
+                <p class="sr-only">Your rating has been received.</p>
+                <img src="./images/illustration-thank-you.svg" alt="" aria-hidden="true" class="card-thankyou__img">
+                <div class="rating-text">
+                    <p id="rating-text"></p>
+                </div>
+                <div class="card-content">
+                    <h2 class="card-content__title">
+                        Thank you!
+                    </h2>
+                    <p class="card-content__text">
+                        We appreciate you taking the time to give a rating. 
+                        If you ever need more support, don’t hesitate to get in touch!
+                    </p>
+                </div>
             </div>
-            <form id="rating-form" class="card-form rating-form">
-                <fieldset class="rating-form__fieldset">
-                    <legend class="sr-only">Select a number from 1-5:</legend>
-                    <label class="rating-form__label" for="rating-1">
-                        <input type="radio" id="rating-1" class="rating-form__input" name="rating" value="1">
-                        <span class="rating-form__text">1</span>
-                    </label>
-                    <label class="rating-form__label" for="rating-2">
-                        <input type="radio" id="rating-2" class="rating-form__input" name="rating" value="2">
-                        <span class="rating-form__text">2</span>
-                    </label>
-                    <label class="rating-form__label" for="rating-3">
-                        <input type="radio" id="rating-3" class="rating-form__input" name="rating" value="3">
-                        <span class="rating-form__text">3</span>
-                    </label>
-                    <label class="rating-form__label" for="rating-4">
-                        <input type="radio" id="rating-4" class="rating-form__input" name="rating" value="4">
-                        <span class="rating-form__text">4</span>
-                    </label>
-                    <label class="rating-form__label" for="rating-5">
-                        <input type="radio" id="rating-5" class="rating-form__input" name="rating" value="5">
-                        <span class="rating-form__text">5</span>
-                    </label>
-                </fieldset>
-                <button id="rating-submit" class="btn" type="submit">Submit</button>
-            </form>
-        </div>
-        <!-- Rating state end -->
-
-        <!-- Thank you state start -->
-        <div id="thankyou-state" class="card card-thankyou card--back" aria-atomic="true">
-            <p class="sr-only">Your rating has been received.</p>
-            <img src="./images/illustration-thank-you.svg" alt="" aria-hidden="true" class="card-thankyou__img">
-            <div class="rating-text">
-                <p id="rating-text"></p>
-            </div>
-            <div class="card-content">
-                <h2 class="card-content__title">
-                    Thank you!
-                </h2>
-                <p class="card-content__text">
-                    We appreciate you taking the time to give a rating. 
-                    If you ever need more support, don’t hesitate to get in touch!
-                </p>
-            </div>
-        </div>
-        <!-- Thank you state end -->
+            <!-- Thank you state end -->
         </div>
     </main>
 </body>
