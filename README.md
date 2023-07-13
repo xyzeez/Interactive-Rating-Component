@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [URL here](https://github.com/xyzeez/Interactive-Rating-Component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [URL here](https://www.frontendmentor.io/solutions/interactive-rating-component-bem-js-mobilefirst-accessibility-nL53CCGsg-)
+- Live Site URL: [Add live site URL here](https://interactive-rating-component-femc.netlify.app/)
 
 ## My process
 
