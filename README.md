@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Design
 
-- ![Active State](./design/active-states.jpg)
-- ![Thank-you State](./design/desktop-thank-you-state.jpg)
+- [Active State](./design/active-states.jpg)
+- [Thank-you State](./design/desktop-thank-you-state.jpg)
 
 ### Links
 
