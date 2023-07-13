@@ -250,6 +250,10 @@ body {
   color: var(--orange);
 }
 
+.btn:is(:disabled) {
+  opacity: 50%;
+}
+
 @media screen and (min-width: 22.75rem) {
   .rating-form__fieldset {
     justify-content: space-between;
