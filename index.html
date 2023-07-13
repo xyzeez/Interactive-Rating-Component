@@ -13,11 +13,10 @@
 </head>
 <body>
     <main class="container" aria-live="polite">
-
         <h1 class="sr-only">Interactive rating component</h1>
-
-        <!-- Rating state start -->
-        <div id="rating-state" class="card card-rating">
+        <div class="card-container">
+            <!-- Rating state start -->
+        <div id="rating-state" class="card card-rating card--front">
             <div class="card-icon" aria-hidden="true">
                 <img src="./images/icon-star.svg" alt="">
             </div>
@@ -60,7 +59,7 @@
         <!-- Rating state end -->
 
         <!-- Thank you state start -->
-        <div id="thankyou-state" class="card card-thankyou card--hidden" aria-atomic="true">
+        <div id="thankyou-state" class="card card-thankyou card--back" aria-atomic="true">
             <p class="sr-only">Your rating has been received.</p>
             <img src="./images/illustration-thank-you.svg" alt="" aria-hidden="true" class="card-thankyou__img">
             <div class="rating-text">
@@ -77,7 +76,7 @@
             </div>
         </div>
         <!-- Thank you state end -->
-
+        </div>
     </main>
 </body>
 </html>

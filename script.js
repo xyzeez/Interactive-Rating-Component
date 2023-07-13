@@ -3,6 +3,7 @@ main = () => {
     const ratingText = document.querySelector('#rating-text');
     const ratingState = document.querySelector('#rating-state');
     const thankyouState = document.querySelector('#thankyou-state');
+    const flipCard = document.querySelector('.card-container');
     let ratingFormSelection;
 
     ratingForm.addEventListener('submit', (e) => {
@@ -14,8 +15,7 @@ main = () => {
         if (ratingFormSelection) {
             ratingText.innerHTML = `You selected ${ratingFormSelection} out of 5`;
 
-            ratingState.classList.add('card--hidden');
-            thankyouState.classList.remove('card--hidden');
+            flipCard.classList.add('flip-card');
         }
     });
 }
