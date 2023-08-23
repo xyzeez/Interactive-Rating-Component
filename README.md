@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [URL here](https://www.frontendmentor.io/solutions/interactive-rating-component-bem-js-mobilefirst-accessibility-nL53CCGsg-)
-- Live Site URL: [Add live site URL here](https://interactive-rating-component-femc.netlify.app/)
+- Live Site URL: [URL here](https://interactive-rating-component-femc.netlify.app/)
 
 ## My process
 
